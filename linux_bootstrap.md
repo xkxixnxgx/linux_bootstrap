@@ -164,13 +164,13 @@ sudo chgrp harry /usr/local/bin/docker-compose
 sudo chmod 750 /usr/local/bin/docker-compose
 docker-compose --version
 ```
-# ssh key for gitlab.ocm
+# ssh key for gitlab
 ```bash
 cd ~/.ssh
-rm gitlab_ocm
-rm gitlab_ocm.pub
+rm gitlab
+rm gitlab.pub
 ssh-keygen
--> Enter file in which to save the key (/home/harry/.ssh/id_rsa): gitlab_ocm
+-> Enter file in which to save the key (/home/harry/.ssh/id_rsa): gitlab
 ```
 # pyenv
 ```bash
