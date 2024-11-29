@@ -61,7 +61,7 @@ export PATH="$HOME/.local/bin:$PATH"
 ```bash
 source ~/.zshrc
 ```
-# Terminal Alacritty
+# terminal alacritty
 
 ### Install Rust
 ```bash
@@ -177,7 +177,7 @@ ssh-keygen
 curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
 nano ~/.zshrc
 ```
-##### добавляем следующий код в конец файла `~/.zshrc`
+##### add to ending of `~/.zshrc` file
 ```~/.zshrc
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
@@ -287,8 +287,8 @@ tmux
 ```tmux
 Press `Ctl+a` + I (capital i, as in **I**nstall) to fetch the plugin.
 ```
-# NvChad - Nvim IDE
-### Font
+# nvchad - nvim ide
+### font
 ```bash
 mkdir ~/.local/share/fonts
 
@@ -311,7 +311,7 @@ rm NerdFontsSymbolsOnly.zip \
 fc-cache -fv
 
 ```
-### Download Nvim 0.10.2 
+### download nvim 0.10.2 
 ```bash
 wget -P ~/ https://github.com/neovim/neovim-releases/releases/download/v0.10.2/nvim-linux64.tar.gz
 
@@ -330,7 +330,7 @@ nvim
 # for exit input :q + Enter
 ```
 
-##### Download  ripgrep 
+##### download  ripgrep 
 ```
 curl -LO https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep_14.1.0-1_amd64.deb
 sudo dpkg -i ripgrep_14.1.0-1_amd64.deb
@@ -345,13 +345,13 @@ nvm install 22
 node -v
 npm -v
 ```
-##### Download NvChad
+##### download nvchad
 ```bash
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 sudo apt install -y python3-venv
 sudo apt install liblua5.4-dev
 ```
-##### Install luarocks lib
+##### install luarocks lib
 ```bash
 sudo apt install liblua5.4-dev
 
@@ -363,7 +363,7 @@ cd luarocks-3.11.1
 ./configure && make && sudo make install
 sudo luarocks install luasocket
 ```
-##### Install 
+##### install 
 ```nvim
 :MasonInstallAll
 :MasonInstall rust-analyzer --force
@@ -371,7 +371,7 @@ sudo luarocks install luasocket
 :q
 ```
 
-##### NvChad commands
+##### nvchad commands
 ```bash
 rm -rf ~/.config/nvim/.git
 cd ~/.config/nvim
@@ -379,7 +379,7 @@ git init
 git branch -m main
 git config --global init.defaultBranch main
 ```
-# Git settings
+# git settings
 ##### Set local email and username for directory but not for global git
 
 ```bash
@@ -391,7 +391,7 @@ git config user.name "Jhon Black"
 git config user.email "jhon-black@gmail.com"
 
 ```
-# Customize GNOM
+# customize GNOM
 ```bash
 sudo apt install -y --no-install-recommends chrome-gnome-shell gnome-shell-extension-dashtodock gnome-shell-extension-manager gnome-shell-extensions gnome-shell-extensions-extra gnome-tweaks conky-all mpd lua5.4 jq imagemagick
 ```
